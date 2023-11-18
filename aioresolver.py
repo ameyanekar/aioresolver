@@ -286,7 +286,7 @@ if __name__ == "__main__":
         print_banner(silent)
 
     if out_file:
-        out_file = open(out_file,'a')
+        out_file = open(out_file,'w')
     
     if resolve_cname:
         query_record = "CNAME"
